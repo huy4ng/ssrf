@@ -24,7 +24,7 @@ sleep .5;
 pip install bs4
 pip install colorama
 pip install ConfigParser
-pip install smtplib
+pip install secure-smtplib
 
 echo  "\n\n[+] Done."
 sleep .5;

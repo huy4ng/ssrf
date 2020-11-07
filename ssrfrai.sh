@@ -1,6 +1,7 @@
 echo "Blind SSRF testing - append to parameters and add new parameters @hussein98d"
 echo "Usage: bash script.sh domain.com http://server-callbak"
 echo "This script uses https://github.com/ffuf/ffuf, https://github.com/lc/gau, https://github.com/tomnomnom/waybackurls"
+echo "https://github.com/tomnomnom/qsreplace"
 if [ -z "$1" ]; then
   echo >&2 "ERROR: Domain not set"
   exit 2
